@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
       close(fd[0]);// zamknij odczyt z potoku
 
 
-      execlp ("display","display", "-", NULL);
+      execlp ("display", "-");
      
       
     }
